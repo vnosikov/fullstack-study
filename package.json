@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node":  "12.10.0",
+    "node": "12.10.0",
     "npm": "6.10.3"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,8 @@
   },
   "homepage": "https://github.com/vnosikov/fullstack-study#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
   }
 }
